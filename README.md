@@ -42,4 +42,28 @@ un listado de objetos "teléfono", respetando el siguiente formato:
 - Importar proyecto a su IDE.
 - Ejecute la prueba y arranque gradle en el proyecto.
 - Ahora pruebe todos los puntos finales.
+- Base de datos en Memoria, H2
+
+http://localhost:8080/v1/ejercicio/sign-up
+
+{
+    "name": "NameExample LastNameExample",
+    "email": "email@example.com",
+    "password": "Pass12",
+    "phones": [
+        {
+            "number": "946644558",
+            "city_code": "1",
+            "country_code": "57"
+        }
+    ]
+}
+
+http://localhost:8080/v1/ejercicio/login
+
+{
+"token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlbWFpbEBleGFtcGxlLmNvbSIsInJvbGVzIjpbIlJPTEVfQURNSU4iLCJST0xFX1VTRVIiXSwiaWF0IjoxNzAwOTUxMzIwLCJleHAiOjE3MDA5NTE2MjB9.9e8okqBF445ThZVPQWuIHky8q3w9wzbGmPb8w9Dhs9o"
+}
+
+
 
